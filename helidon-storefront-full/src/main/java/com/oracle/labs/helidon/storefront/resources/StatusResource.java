@@ -55,7 +55,7 @@ import org.eclipse.microprofile.config.inject.ConfigProperty;
 @Path("/status")
 @RequestScoped
 public class StatusResource {
-	public final static String VERSION = "0.0.1";
+	public final static String VERSION = "1.0.0";
 	private static final JsonBuilderFactory JSON = Json.createBuilderFactory(Collections.emptyMap());
 	private String storename = "Not set";
 	private static final SimpleDateFormat format = new SimpleDateFormat("YYYY-MM-dd HH:mm:ss.SSS");
